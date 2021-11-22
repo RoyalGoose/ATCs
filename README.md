@@ -4,6 +4,7 @@ desc
 
 ## Quick Start
 
+```bash
 # Open folder backend
 cd backend
 
@@ -20,7 +21,7 @@ npm run serve
 # Build for production (Will build into server/public, ready for deployment)
 cd client
 npm run build
-
+```
 
 ## App Info
 
