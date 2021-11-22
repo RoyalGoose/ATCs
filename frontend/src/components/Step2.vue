@@ -150,12 +150,6 @@
 import ModalList from "@/components/ModalList";
 
 export default {
-	metaInfo() {
-		return {
-			title: "Контрольная работа",
-		};
-	},
-    
 	props: ["selectedItem", "changeSelectedItem"],
 
 	data: () => ({
