@@ -1,38 +1,39 @@
-# ATCs
+# Контрольная работа
+По предмету **Технологии разработки web приложений**
 
-desc
+## Описание
 
-## Quick Start
+В связи с тем, что в работе было решено использовать **VUE 3** архитектура приложения немного поменялась по отношению к требуемой в задании.
+
+В папке `frontend` находится *development* версия проекта. В папке `backend` находится *express.js* сервер, а также *build* версия проекта `/backend/public`
+
+
+## Запуск *build* версии проекта
 
 ```bash
-# Open folder backend
+# Открыть папку backend
 cd backend
 
-# Install dependencies
-npm install
+# Установить зависимости
+npm i
 
-# Start Express Server: http://localhost:5000
+# Запустить Express сервер: http://localhost:5000
 npm start
-
-# Start Vue DevServer: http://localhost:8080
+```
+## Запуск *development* версии проекта
+```bash
+# Открыть папку frontend
 cd frontend
+
+# Установить зависимости
+npm i
+
+# Запустить Vue DevServer: http://localhost:8080
 npm run serve
 
-# Build for production (Will build into backend/public, ready for deployment)
-cd frontend
+# При необходимости забилдить проект
 npm run build
 ```
 
-## App Info
-
-### Author
-
-Ya
-
-### Version
-
-1.0.0
-
-### License
-
-This project is licensed under the MIT License
+### Автор
+RoyalGoose aka VN
