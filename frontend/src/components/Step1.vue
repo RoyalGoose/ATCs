@@ -52,6 +52,11 @@
 import AtcService from '../../AtcService'
 
 export default {
+    metaInfo() {
+        return {
+            title: 'Контрольная работа',
+        };
+    },
 
     props: ['changeView', 'selectedItem', 'changeSelectedItem'],
 

@@ -10,6 +10,8 @@ import {
     faExternalLinkAlt
  } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import VueMeta from 'vue-meta'
+
 
 library.add(faCheck)
 library.add(faArrowRight)
@@ -18,4 +20,4 @@ library.add(faChevronDown)
 library.add(faTimes)
 library.add(faExternalLinkAlt)
 
-createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
+createApp(App).use(VueMeta).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
